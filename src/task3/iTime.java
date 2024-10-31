@@ -1,6 +1,6 @@
 package task3;
 
-public class iTime extends iTriad{
+public class iTime implements iTriad{
     private int hour;
     private int minute;
     private int second;

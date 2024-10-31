@@ -7,8 +7,9 @@ public class Trial extends Test {
         super(subject, maxScore);
         this.trialType = trialType;
     }
-
+    @Override
     public void conductTest() {
-        System.out.println("Conducting trial for " + subject + " of type " + trialType);
+        super.conductTest();
+        System.out.println(" of type " + trialType);
     }
 }

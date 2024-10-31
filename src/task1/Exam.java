@@ -7,8 +7,9 @@ public class Exam extends Test {
         super(subject, maxScore);
         this.examDate = examDate;
     }
-
+    @Override
     public void conductTest() {
-        System.out.println("Conducting exam for " + subject + " on " + examDate);
+        super.conductTest();
+        System.out.println(" on " + examDate);
     }
 }

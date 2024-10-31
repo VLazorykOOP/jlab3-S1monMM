@@ -8,4 +8,7 @@ public class Test {
         this.subject = subject;
         this.maxScore = maxScore;
     }
+    public void conductTest() {
+        System.out.print("Conducting trial for " + subject);
+    }
 }

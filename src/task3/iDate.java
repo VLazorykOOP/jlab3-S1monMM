@@ -1,6 +1,6 @@
 package task3;
 
-public class iDate extends iTriad {
+public class iDate implements iTriad {
     private int day;
     private int month;
     private int year;
